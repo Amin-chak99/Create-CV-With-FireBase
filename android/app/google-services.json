@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391040215619",
+    "project_id": "pelagic-tracker-369921",
+    "storage_bucket": "pelagic-tracker-369921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391040215619:android:91c763cb2b2bf2d8bd82f6",
+        "android_client_info": {
+          "package_name": "com.example.aminchakroun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391040215619-gcai8c5q663h1r5ddl3352ttio14n9mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI4oECykkdmnAjOgulKR_IHj6l2-9h90E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391040215619-gcai8c5q663h1r5ddl3352ttio14n9mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
