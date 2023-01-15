@@ -7,30 +7,33 @@ class pf extends StatefulWidget {
   State<pf> createState() => _pfState();
 }
 final List<String> images=[
-"mobile.png","web.png","facture.png","3d.png"
+"acshop.png","mobile.png","web.png","facture.png","3d.png"
 ];
 final List<String> descL=[
-  "App Mobile","App Web","App Facturation","3D CNC"
+  "E-Shop Mobile","App Mobile","App Web","App Facturation","3D CNC"
 ];
 
 class _pfState extends State<pf> {
   int selectedMenuItem=0;
-  String desc = "Devlopement d'une application mobile sous le nom 'voyage' developer par la language dart (FLUTTER) on utilisation l'ide Android Studio , Cette application demande plusieurs service pour les gens qui est toujour deplacer d'une pays a un autre pour facilité leur vie et regrouper plusieurs application dans une seul , à l'aide de cette app mobile on savoir la meteo,les photos et la discription de chaque pays, ajouter des contacts et enregistres dan une base de données en ligne firebase";
+String         desc="Devlopement d'une application mobile sous le nom 'AC-Shop'Développer par la language dart (FLUTTER) on utilisationl'ide Android Studio, Cette application E-Commerce rassemblerPlusieurs catégories de produits (informatique, vêtement, électroménager ....) dans unSeule application et peut payer la commande avec plusieurs méthodes (en ligne , livraison à domicile)";
 
 
   void setdesc(){
     switch(selectedMenuItem){
-      case 0:
-        desc="Devlopement d'une application mobile sous le nom 'voyage' developer par la language dart (FLUTTER) on utilisation l'ide Android Studio , Cette application demande plusieurs service pour les gens qui est toujour deplacer d'une pays a un autre pour facilité leur vie et regrouper plusieurs application dans une seul , à l'aide de cette app mobile on savoir la meteo,les photos et la discription de chaque pays, ajouter des contacts et enregistres dan une base de données en ligne firebase    ";
-        break;
-      case 2:
-        desc="Cette application a pour plusieurs buts dans lequel : Organiser la system de facturation pour éliminer la répétition du numéro unique de la facture Sécurisé les information confidentiel (les Factures) par un login et un mot de passe Enregistré toutes les factures dans une base de données pour facilite d’analysé les chiffer d’affaire Facilite de crée une quel que soit une facture, offre de prix ou bon de livraison à partir de faire une communication entre java et Excel ";
+      case 1:
+        desc="  Devlopement d'une application mobile sous le nom 'voyage' developer par la language dart (FLUTTER) on utilisation l'ide Android Studio , Cette application demande plusieurs service pour les gens qui est toujour deplacer d'une pays a un autre pour facilité leur vie et regrouper plusieurs application dans une seul , à l'aide de cette app mobile on savoir la meteo,les photos et la discription de chaque pays, ajouter des contacts et enregistres dan une base de données en ligne firebase    ";
         break;
       case 3:
+        desc="Cette application a pour plusieurs buts dans lequel : Organiser la system de facturation pour éliminer la répétition du numéro unique de la facture Sécurisé les information confidentiel (les Factures) par un login et un mot de passe Enregistré toutes les factures dans une base de données pour facilite d’analysé les chiffer d’affaire Facilite de crée une quel que soit une facture, offre de prix ou bon de livraison à partir de faire une communication entre java et Excel ";
+        break;
+      case 4:
         desc="Il y a deux méthode pour La fabrication d’un prototype à l’aide d’une machine CNC une fabrication additive c’est la fabrication en volume par ajout de matière couche par couche depuis une modélisation trois dimensionnelles lorsqu’on parlant d’une imprimante 3D et une fabrication soustractive par un enlèvement de matière dans le cas d’une graveuse,mais l'inovation pour cette projet et pour fabrique une seul machine qui est capable de faire les deux tache pour minimise le cout d'achat de deux machine  ";
         break;
-      case 1:
+      case 2:
         desc="Devlopement d'une site web developer par la language HTML CSS JAVA SCRIPT (ANGULAR) on utilisation visual studio code , Cette site demande plusieurs service et regrouper plusieurs application dans une seul on peut visualisé la meteo, chercher des photos, ajouter des contacts des produit et enregistres dans une base de données en ligne firebase ";
+        break;
+      case 0 :
+        desc="Devlopement d'une application mobile sous le nom 'AC-Shop'Développer par la language dart (FLUTTER) on utilisationl'ide Android Studio, Cette application E-Commerce rassemblerPlusieurs catégories de produits (informatique, vêtement, électroménager ....) dans unSeule application et peut payer la commande avec plusieurs méthodes (en ligne , livraison à domicile)";
         break;
 
     }

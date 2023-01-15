@@ -171,20 +171,21 @@ class exper extends StatelessWidget {
                               Container(
                                 child: Text('Stage Projet Fin d’Etude',style: TextStyle(
                                     color: Colors.blue,
-                                    fontSize: 20
+                                    fontSize: 18
                                 ),),
                               ),
                               Container(
                                 padding: EdgeInsets.only(top: 10),
                                 child: Text("Du 01/03/2020 jusqu’à 01/07/2020" ,style: TextStyle(
                                   color: Colors.white54,
+                                  fontSize: 12
                                 ),),
                               ),
                               Container(
                                 padding: EdgeInsets.only(top: 10),
                                 child: Text("Institut Supérieur de Gestion Industrielle " ,style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 12
+                                    fontSize: 13
                                 ),),
                               ), Container(
                                 padding: EdgeInsets.only(top: 5),
@@ -194,7 +195,7 @@ class exper extends StatelessWidget {
                                 ),),
                               ), Container(
                                 padding: EdgeInsets.only(top: 5),
-                                child: Text("fabrication d’une machine à commande" ,style: TextStyle(
+                                child: Text("fabrication machine à commande" ,style: TextStyle(
                                   color: Colors.white,
                                 ),),
                               ),
@@ -298,19 +299,19 @@ class exper extends StatelessWidget {
                                 ),),
                               ), Container(
                                 padding: EdgeInsets.only(top: 5),
-                                child: Text("Conception et Cablage des armoires " ,style: TextStyle(
+                                child: Text("Conception & Cablage des armoires" ,style: TextStyle(
                                   color: Colors.white,
                                 ),),
                               ),
                               Container(
                                 padding: EdgeInsets.only(top: 5),
-                                child: Text("Electrique des regulation et commande " ,style: TextStyle(
+                                child: Text("Electrique de regulation et de" ,style: TextStyle(
                                   color: Colors.white,
                                 ),),
                               ),
                               Container(
                                 padding: EdgeInsets.only(top: 5),
-                                child: Text("à distance" ,style: TextStyle(
+                                child: Text(" commande à distance" ,style: TextStyle(
                                   color: Colors.white,
                                 ),),
                               ),

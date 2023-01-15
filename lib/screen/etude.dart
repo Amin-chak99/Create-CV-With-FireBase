@@ -331,7 +331,7 @@ class etude extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          child: Text('Licence Electronique Electrotechnique',style: TextStyle(
+                          child: Text('Licence Electronique Automatique',style: TextStyle(
                             color: Colors.white,
                           ),),
                         ),

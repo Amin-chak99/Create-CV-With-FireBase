@@ -17,7 +17,7 @@ class infoper extends StatelessWidget {
 
                 child: ListView(
                   physics: BouncingScrollPhysics(),
-                  scrollDirection: Axis.horizontal,
+                  scrollDirection: Axis.vertical,
 
                   children: [
                     Container(
@@ -329,6 +329,33 @@ class infoper extends StatelessWidget {
                                       Container(
                                         padding: EdgeInsets.only(left: 10, right: 10),
                                         child: Text('amin-chakroun-979730223',style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 17,
+                                          color: Colors.white54,
+                                        ),),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.only(left:10 ,bottom: 20),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Container(
+                                        width: 30,
+                                        height: 30,
+                                        child: Center(
+                                          child: CircleAvatar(
+                                            backgroundColor: Colors.white,
+                                            backgroundImage: AssetImage("assets/images/git.png" ),
+                                            radius: 87,
+                                          ),
+                                        ),
+                                      ),
+                                      Container(
+                                        padding: EdgeInsets.only(left: 10, right: 10),
+                                        child: Text('Amin-chak99',style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 17,
                                           color: Colors.white54,

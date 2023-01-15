@@ -395,7 +395,7 @@ class _certState extends State<cert> {
                           ),
 
                           Container(
-                            padding: EdgeInsets.only(top:5,left: 20),
+                            padding: EdgeInsets.only(top:5,left: 10),
                             child: LinearPercentIndicator(
                               width: 270.0,
                               lineHeight: 4.0,
@@ -415,7 +415,7 @@ class _certState extends State<cert> {
 
 
                   Container(
-                    margin: EdgeInsets.only(top: 5 ,left: 10,bottom: 5 ,right: 15),
+                    margin: EdgeInsets.only(top: 5 ,left: 10,bottom: 5 ,right: 10),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
                       color:  Color(0xFFB1F2836),
@@ -440,7 +440,7 @@ class _certState extends State<cert> {
                         ),
 
                        Container(
-                         padding: EdgeInsets.only(top:5,left: 20),
+                         padding: EdgeInsets.only(top:5,left: 10),
                          child: LinearPercentIndicator(
                            width: 270.0,
                            lineHeight: 4.0,
@@ -483,7 +483,7 @@ class _certState extends State<cert> {
                           ),
 
                           Container(
-                            padding: EdgeInsets.only(top:5,left: 20),
+                            padding: EdgeInsets.only(top:5,left: 10),
                             child: LinearPercentIndicator(
                               width: 270.0,
                               lineHeight: 4.0,
@@ -741,7 +741,7 @@ class _certState extends State<cert> {
                             children: [
                               Container(
                                 padding: EdgeInsets.only(left: 10),
-                                child: Text('Certificat Technique de comunication ',style: TextStyle(
+                                child: Text('Technique de comunication',style: TextStyle(
                                   color: Colors.white,
                                 ),),
                               ),
